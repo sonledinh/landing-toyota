@@ -6,21 +6,21 @@
 			<div class="item"><img src="https://toyota-thaibinh.vn/wp-content/uploads/2021/01/viber_image_2021-06-01_09-55-05.jpg" class="img-fluid w-100" alt=""></div>
 		</div>
 	</section>
-	<section class="box-about">
+	<section class="box-about" id="about">
 		<div class="container">
-			<div class="title text-center">
+			<div class="title text-center wow fadeInUp wHighlight" data-wow-delay=".25s">
 				<h2 class="text-uppercase">Về chúng tôi</h2>
 			</div>
 			<div class="content-ab">
 				<div class="row">
 					<div class="col-md-6">
 						<div class="txt-about">
-							<h1>Đại lý Toyota Hưng Thịnh Phát Thái Bình</h1>
-							<div class="desc">
+							<h1 class=" wow fadeInUp wHighlight" data-wow-delay=".25s">Đại lý Toyota Hưng Thịnh Phát Thái Bình</h1>
+							<div class="desc wow fadeInUp wHighlight" data-wow-delay=".25s">
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint cum quam unde dolorum nesciunt eligendi, voluptatum perspiciatis expedita.</p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consequuntur excepturi quasi praesentium reprehenderit </p>
 							</div>
-							<div class="list-ab">
+							<div class="list-ab wow fadeInUp wHighlight" data-wow-delay=".25s">
 								<ul>
 									<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 									<li>Lorem ipsum dolor sit amet, consectetur.</li>
@@ -38,16 +38,16 @@
 			</div>
 		</div>
 	</section>
-	<section class="box-service">
+	<section class="box-service" id="service">
 		<div class="container">
-			<div class="title text-center mb-0">
+			<div class="title text-center mb-0 wow fadeInUp wHighlight" data-wow-delay=".25s">
 				<h2 class="text-uppercase">Dịch vụ</h2>
 			</div>
 			<div class="list-srv">
 				<div class="row justify-content-center">
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6 wow fadeInLeft wHighlight" data-wow-delay=".25s">
 						<div class="item-srv text-center">
-							<div class="icon"><img src="https://toyota-thaibinh.vn/wp-content/themes/toyota/images/dichvu_icon_s_01.png" class="img-fluid" alt=""></div>
+							<div class="icon"><img src="images/srv-1.png" class="img-fluid" alt=""></div>
 							<div class="info">
 								<div class="h3">Chính sách bảo hành</div>
 								<div class="desc">
@@ -56,9 +56,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6 wow fadeInLeft wHighlight" data-wow-delay=".35s">
 						<div class="item-srv text-center">
-							<div class="icon"><img src="https://toyota-thaibinh.vn/wp-content/themes/toyota/images/dichvu_icon_s_04.png" class="img-fluid" alt=""></div>
+							<div class="icon"><img src="images/srv-2.png" class="img-fluid" alt=""></div>
 							<div class="info">
 								<div class="h3">Dịch vụ bảo dưỡng</div>
 								<div class="desc">
@@ -67,9 +67,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6 wow fadeInLeft wHighlight" data-wow-delay=".45s">
 						<div class="item-srv text-center">
-							<div class="icon"><img src="https://toyota-thaibinh.vn/wp-content/themes/toyota/images/dichvu_icon_s_03.png" class="img-fluid" alt=""></div>
+							<div class="icon"><img src="images/srv-3.png" class="img-fluid" alt=""></div>
 							<div class="info">
 								<div class="h3">Phụ tùng & phụ kiện</div>
 								<div class="desc">
@@ -78,9 +78,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6 wow fadeInLeft wHighlight" data-wow-delay=".55s">
 						<div class="item-srv text-center">
-							<div class="icon"><img src="https://toyota-thaibinh.vn/wp-content/themes/toyota/images/dichvu_icon_s_07.png" class="img-fluid" alt=""></div>
+							<div class="icon"><img src="images/srv-4.png" class="img-fluid" alt=""></div>
 							<div class="info">
 								<div class="h3">Dịch vụ sửa chữa</div>
 								<div class="desc">
@@ -89,9 +89,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6 wow fadeInLeft wHighlight" data-wow-delay=".65s">
 						<div class="item-srv text-center">
-							<div class="icon"><img src="https://toyota-thaibinh.vn/wp-content/themes/toyota/images/dichvu_icon_s_05.png" class="img-fluid" alt=""></div>
+							<div class="icon"><img src="images/srv-5.png" class="img-fluid" alt=""></div>
 							<div class="info">
 								<div class="h3">Kiểm tra và triệu hồi</div>
 								<div class="desc">
@@ -104,21 +104,107 @@
 			</div>
 		</div>
 	</section>
-	<section class="box-product">
+	<section class="box-product" id="product">
 		<div class="container">
-			<div class="title text-center">
+			<div class="title text-center wow fadeInUp wHighlight" data-wow-delay=".25s">
 				<h2 class="text-uppercase">Sản phẩm nổi bật</h2>
+			</div>
+			<div class="slide-prd wow fadeInUp wHighlight" data-wow-delay=".25s">
+				<div class="item-slide">
+					<div class="itemprd">
+						<div class="avarta text-center"><a href=""><img src="https://taf.toyota.com.vn/data/categories/802/2-0G-4.png?width=280" class="img-fluid" alt=""></a></div>
+						<div class="info">
+							<h3><a href="">Land Cruiser Prado</a></h3>
+							<div class="price">Giá từ: 2,379,000,000 Vnđ</div>
+							<ul>
+								<li>7 chỗ ngồi</li>
+								<li>Số tự động 6 cấ<p></p></li>
+								<li>Động cơ xăng - 2.694 cc, 4x4</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="item-slide">
+					<div class="itemprd">
+						<div class="avarta text-center"><a href=""><img src="https://taf.toyota.com.vn/data/categories/802/2-0G-4.png?width=280" class="img-fluid" alt=""></a></div>
+						<div class="info">
+							<h3><a href="">Land Cruiser Prado</a></h3>
+							<div class="price">Giá từ: 2,379,000,000 Vnđ</div>
+							<ul>
+								<li>7 chỗ ngồi</li>
+								<li>Số tự động 6 cấ<p></p></li>
+								<li>Động cơ xăng - 2.694 cc, 4x4</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="item-slide">
+					<div class="itemprd">
+						<div class="avarta text-center"><a href=""><img src="https://taf.toyota.com.vn/data/categories/802/2-0G-4.png?width=280" class="img-fluid" alt=""></a></div>
+						<div class="info">
+							<h3><a href="">Land Cruiser Prado</a></h3>
+							<div class="price">Giá từ: 2,379,000,000 Vnđ</div>
+							<ul>
+								<li>7 chỗ ngồi</li>
+								<li>Số tự động 6 cấ<p></p></li>
+								<li>Động cơ xăng - 2.694 cc, 4x4</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="item-slide">
+					<div class="itemprd">
+						<div class="avarta text-center"><a href=""><img src="https://taf.toyota.com.vn/data/categories/802/2-0G-4.png?width=280" class="img-fluid" alt=""></a></div>
+						<div class="info">
+							<h3><a href="">Land Cruiser Prado</a></h3>
+							<div class="price">Giá từ: 2,379,000,000 Vnđ</div>
+							<ul>
+								<li>7 chỗ ngồi</li>
+								<li>Số tự động 6 cấ<p></p></li>
+								<li>Động cơ xăng - 2.694 cc, 4x4</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="item-slide">
+					<div class="itemprd">
+						<div class="avarta text-center"><a href=""><img src="https://taf.toyota.com.vn/data/categories/802/2-0G-4.png?width=280" class="img-fluid" alt=""></a></div>
+						<div class="info">
+							<h3><a href="">Land Cruiser Prado</a></h3>
+							<div class="price">Giá từ: 2,379,000,000 Vnđ</div>
+							<ul>
+								<li>7 chỗ ngồi</li>
+								<li>Số tự động 6 cấ<p></p></li>
+								<li>Động cơ xăng - 2.694 cc, 4x4</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="item-slide">
+					<div class="itemprd">
+						<div class="avarta text-center"><a href=""><img src="https://taf.toyota.com.vn/data/categories/802/2-0G-4.png?width=280" class="img-fluid" alt=""></a></div>
+						<div class="info">
+							<h3><a href="">Land Cruiser Prado</a></h3>
+							<div class="price">Giá từ: 2,379,000,000 Vnđ</div>
+							<ul>
+								<li>7 chỗ ngồi</li>
+								<li>Số tự động 6 cấ<p></p></li>
+								<li>Động cơ xăng - 2.694 cc, 4x4</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
-	<section class="box-FAQ">
+	<section class="box-FAQ" id="faq">
 		<div class="container">
-			<div class="title text-center">
+			<div class="title text-center wow fadeInUp wHighlight" data-wow-delay=".25s">
 				<h2 class="text-uppercase">FAQ</h2>
 			</div>
 			<div class="list-faq">
 				<div id="accordion">
-				    <div class="card">
+				    <div class="card wow fadeInUp wHighlight" data-wow-delay=".25s">
 				      <div class="card-header" id="headingOne">
 				        <h5 class="mb-0">
 				          <button data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -133,7 +219,7 @@
 				        </div>
 				      </div>
 				    </div>
-				    <div class="card">
+				    <div class="card wow fadeInUp wHighlight" data-wow-delay=".25s">
 				      <div class="card-header" id="headingTwo">
 				        <h5 class="mb-0">
 				          <button data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -151,12 +237,12 @@
 			</div>
 		</div>
 	</section>
-	<section class="box-feedback" style="background: url('https://toyota-thaibinh.vn/wp-content/uploads/2021/01/banner_gioithieudaily.jpg') no-repeat center;background-size: cover;">
+	<section class="box-feedback" id="feedback" style="background: url('https://toyota-thaibinh.vn/wp-content/uploads/2021/01/banner_gioithieudaily.jpg') no-repeat center;background-size: cover;">
 		<div class="container">
-			<div class="title text-center">
+			<div class="title text-center wow fadeInUp wHighlight" data-wow-delay=".25s">
 				<h2 class="text-uppercase">Phản hồi từ khách hàng</h2>
 			</div>
-			<div class="slide-fb">
+			<div class="slide-fb wow fadeInUp wHighlight" data-wow-delay=".25s">
 				<div class="item-slide text-center">
 					<div class="item">
 						<div class="icon"><img src="https://webtend.net/demo/html/carspace/assets/img/testimonial-2.jpg" class="img-fluid" alt=""></div>
@@ -200,31 +286,31 @@
 			</div>
 		</div>
 	</section>
-	<section class="box-contact">
+	<section class="box-contact" id="contact">
 		<div class="container">
-			<div class="title text-center">
+			<div class="title text-center wow fadeInUp wHighlight" data-wow-delay=".25s">
 				<h2 class="text-uppercase">Liên hệ với chúng tôi</h2>
 			</div>
 			<div class="content-ctn">
 				<div class="row">
 					<div class="col-md-6">
 						<div class="txt-ctn">
-							<h2>TOYOTA HƯNG THỊNH PHÁT THÁI BÌNH</h2>
-							<ul>
-								<li>Địa chỉ: Bùng binh giao lộ Đông Hòa, TP.Thái Bình, Tỉnh Thái Bình</li>
-								<li>Điện thoại: 19001225 • Fax:</li>
-								<li>Dịch vụ : 07:30 - 17:00 Thứ Hai đến Thứ Bảy. Chủ Nhật từ 08:00 đến 17:00. Hotline : 0886.116.998</li>
-								<li>Kinh doanh : 08:00 - 18:00 Thứ Hai đến Thứ Bảy. Chủ Nhật từ 08:00 đến 17:00. Hotline : 19001225</li>
+							<h2 class=" wow fadeInUp wHighlight" data-wow-delay=".25s">TOYOTA HƯNG THỊNH PHÁT THÁI BÌNH</h2>
+							<ul class=" wow fadeInUp wHighlight" data-wow-delay=".25s">
+								<li class=" wow fadeInUp wHighlight" data-wow-delay=".25s">Địa chỉ: Bùng binh giao lộ Đông Hòa, TP.Thái Bình, Tỉnh Thái Bình</li>
+								<li class=" wow fadeInUp wHighlight" data-wow-delay=".35s">Điện thoại: 19001225 • Fax:</li>
+								<li class=" wow fadeInUp wHighlight" data-wow-delay=".45s">Dịch vụ : 07:30 - 17:00 Thứ Hai đến Thứ Bảy. Chủ Nhật từ 08:00 đến 17:00. Hotline : 0886.116.998</li>
+								<li class=" wow fadeInUp wHighlight" data-wow-delay=".55s">Kinh doanh : 08:00 - 18:00 Thứ Hai đến Thứ Bảy. Chủ Nhật từ 08:00 đến 17:00. Hotline : 19001225</li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="form-ctn">
-							<div class="item"><input type="text" class="txt-inp" placeholder="Họ và tên"></div>
-							<div class="item"><input type="text" class="txt-inp" placeholder="Email"></div>
-							<div class="item"><input type="text" class="txt-inp" placeholder="Điện thoại"></div>
-							<div class="item"><textarea placeholder="Nội dung"></textarea></div>
-							<div class="item"><input type="submit" value="GỬI" class="btn-ctn"></div>
+							<div class="item wow fadeInUp wHighlight" data-wow-delay=".25s"><input type="text" class="txt-inp" placeholder="Họ và tên"></div>
+							<div class="item wow fadeInUp wHighlight" data-wow-delay=".35s"><input type="text" class="txt-inp" placeholder="Email"></div>
+							<div class="item wow fadeInUp wHighlight" data-wow-delay=".45s"><input type="text" class="txt-inp" placeholder="Điện thoại"></div>
+							<div class="item wow fadeInUp wHighlight" data-wow-delay=".55s"><textarea placeholder="Nội dung"></textarea></div>
+							<div class="item wow fadeInUp wHighlight" data-wow-delay=".65s"><input type="submit" value="GỬI" class="btn-ctn"></div>
 						</div>
 					</div>
 				</div>

@@ -12,7 +12,7 @@ body {
     position: relative;
     font-weight: normal;
     overflow-x: hidden;
-    font-family: 'OpenSans';
+    font-family: 'Tahoma';
     h1, h2, h3, h4, h5, h6, p, label, ul, li, .card, a { 
         text-decoration: none !important;      
         transition: .3s all; 
@@ -29,7 +29,7 @@ body {
     }
     ul {
     	padding: 0;
-    	margin: 0;
+    	margin: 0; 
     } 
     input, button {
     	outline: none !important;
@@ -51,6 +51,28 @@ body {
     }
 }
 
+.slick-dots {
+    bottom: auto;
+    position: unset;
+    padding-top: 30px;
+    button {
+        display: none !important;
+    }
+    li {
+        margin: 0 2px;
+        height: 10px;
+        width: 20px;
+        border: 1px solid $red;
+        background: #fff;
+        border-radius: 30px;
+        transition: .4s all !important;
+        &.slick-active {
+            width: 10px;
+            background: $red;
+        }
+    }
+}
+
 @import "layer.scss";
 
 section {
@@ -61,7 +83,8 @@ section {
     h2 {
         font-size: 30px;
         line-height: inherit;
-        font-family: 'DancingScript';
+        // font-family: 'DancingScript';
+        font-family: 'Tahoma';
         font-weight: bold;
         color: $red;
     }
@@ -171,6 +194,7 @@ section {
         position: unset;
         margin-top: 25px;
         list-style: none;
+        padding-top: 0;
         li {
             width: 20px;
             height: 10px;
@@ -294,14 +318,18 @@ section {
     }
 }
 .list-faq {
+    .card-header {
+        padding: 0;
+    }
     button {
         width: 100%;
         text-align: left;
         background: transparent;
         font-weight: 500;
         border: 0;
-        font-size: 18px;
+        font-size: 16px;
         cursor: pointer;
+        padding: 15px;
     }
     .card {
         margin-bottom: 15px;
@@ -309,4 +337,41 @@ section {
             margin-bottom: 0;
         }
     }
+    .col-md-6 {
+        padding: 15px;
+    }
+}
+.slide-prd {
+    margin: 0 -15px;
+    .item-slide {
+        padding: 0 15px;
+    }
+}
+.itemprd {
+    font-size: 13px;
+    .avarta {
+        margin-bottom: 10px;
+    }
+    .info {
+        a {
+            display: block;
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+        ul {
+            padding-left: 18px;
+        }
+    }
+    .price {
+        font-weight: 600;
+        padding-bottom: 4px;
+    }
+}
+.box-product {
+    background: #f3f3f3;
+    padding: 60px 0;
+}
+.box-service {
+    padding: 60px 0;
 }

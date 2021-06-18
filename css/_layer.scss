@@ -2,6 +2,12 @@
 .header-top {
 	padding: 5px 0;
 	border-bottom: 3px solid $red;
+	background: #fff;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    position: fixed;
 	ul {
 		list-style: none;
 		display: flex;
@@ -72,4 +78,8 @@ footer {
 			color: #fff;
 		}
 	}
+}
+
+main {
+    margin-top: 83px;
 }
