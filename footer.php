@@ -1,5 +1,5 @@
 <footer>
-	<div class="footer-top">
+	<!-- <div class="footer-top">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
@@ -50,19 +50,28 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<div class="footer-info">
 		<div class="container">
-			<ul>
-				<li><img src="https://toyota-thaibinh.vn/wp-content/themes/toyota/images/dathongbao.png" class="img-fluid" alt=""></li>
-				<li>Công ty TNHH Toyota Hưng Thịnh Phát Thái Bình</li>
-				<li>Số điện thoại: 02273.648.888</li>
-				<li>Địa chỉ: Thôn Nam Cầu Nhân, X. Đông Hòa, Tp. Thái Bình, Thái Bình</li>
-				<li>MST: 1001214616</li>
-				<li>Ngày cấp: 16/09/2020</li>
-				<li>Nơi cấp: Sở Kế Hoạch và Đầu Tư Tỉnh Thái Bình</li>
-				<li>Email: admin@toyota-thaibinh.vn</li>
-			</ul>
+			<div class="row">
+				<div class="col-md-6">
+					<ul>
+						<li><img src="https://toyota-thaibinh.vn/wp-content/themes/toyota/images/dathongbao.png" class="img-fluid" alt=""></li>
+						<li>Công ty TNHH Toyota Hưng Thịnh Phát Thái Bình</li>
+						<li>Số điện thoại: 02273.648.888</li>
+						<li>Địa chỉ: Thôn Nam Cầu Nhân, X. Đông Hòa, Tp. Thái Bình, Thái Bình</li>
+						<li>MST: 1001214616</li>
+						<li>Ngày cấp: 16/09/2020</li>
+						<li>Nơi cấp: Sở Kế Hoạch và Đầu Tư Tỉnh Thái Bình</li>
+						<li>Email: admin@toyota-thaibinh.vn</li>
+					</ul>
+				</div>
+				<div class="col-md-6 text-right">
+					<div class="fanpages">
+						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fbestayvn&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=776267119695054" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="copying text-center">

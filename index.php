@@ -6,6 +6,37 @@
 			<div class="item"><img src="https://toyota-thaibinh.vn/wp-content/uploads/2021/01/viber_image_2021-06-01_09-55-05.jpg" class="img-fluid w-100" alt=""></div>
 		</div>
 	</section>
+	<section class="box-contact-avr">
+		<div class="container">
+			<div class="ctn-bn">
+				<div class="avarta-ctn">
+					<img src="https://zpsocial-f47-org.zadn.vn/c45c368f80016c5f3510.jpg" class="img-fluid" alt="">
+					<div class="info-av text-center">
+						<h2>ÍN ÍN</h2>
+						<p>TOYOTA HAHA</p>
+					</div>
+				</div>
+				<div class="info">
+					<h2 class="text-uppercase text-center">LIÊN HỆ NGAY ĐỂ ĐƯỢC TƯ VẤN VÀ NHẬN ƯU ĐÃI GIẢM GIÁ</h2>
+					<div class="desc">
+						<h4>TƯ VẤN TẬN TÌNH (24/7)</h4>
+						<p>Đội ngũ tư vấn được đào tạo chuyên nghiệp, giàu kinh nghiệm luôn sẵn lòng giúp quý khách tìm được chiếc xe ưng ý.</p>
+						<h4>GIÁ ƯU ĐÃI – GIAO XE SỚM</h4>
+						<p>Đại lý xe Hyundai Thái Bình luôn cam kết mang lại mức giá ưu đãi nhất cho quý khách với thời gian giao xe chính xác tại khu vực Miền Bắc.</p>
+						<h4>BẢO HÀNH TIÊU CHUẨN TOÀN CẦU</h4>
+						<p>Cung cấp phụ tùng ô tô Hyundai chính hãng. Quý khách hãy yên tâm và tin rằng xe Hyundai mua tại Hyundai Thái Bình sẽ luôn được chăm sóc kĩ lưỡng, Hỗ trợ kỹ thuật 24/7.</p>
+					</div>
+					<div class="social-ctn">
+						<ul class="list-inline">
+							<li class="list-inline-item"><a href="tel:0964150069" class="hotline">GỌI NGAY: 0964 150 069</a></li>
+							<li class="list-inline-item"><a href=""><img src="images/sc-1.png" class="img-fluid" alt=""></a></li>
+							<li class="list-inline-item"><a href=""><img src="images/sc-2.png" class="img-fluid" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<section class="box-about" id="about">
 		<div class="container">
 			<div class="title text-center wow fadeInUp wHighlight" data-wow-delay=".25s">
